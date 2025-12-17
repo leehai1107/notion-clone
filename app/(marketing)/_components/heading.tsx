@@ -36,7 +36,7 @@ export const Heading = () => {
         </Button>
       )}
       <h3 className="text-base font-mono text-violet-700 dark:text-violet-300 sm:text-4xl md:text-2xl font-bold">
-        Developed by (Alimardon Davronov)
+        Developed by (Le Chi Hai)
       </h3>
       {!isAuthenticated && !isLoading && (
         <SignInButton mode="modal">
