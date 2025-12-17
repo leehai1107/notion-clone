@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://brief-bream-40.clerk.accounts.dev",
+      domain: process.env.CLERK_ISSUER_URL,
       applicationID: "convex",
     },
   ],
